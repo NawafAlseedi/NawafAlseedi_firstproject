@@ -6,8 +6,10 @@ public class Taxes {
 		Scanner s= new Scanner (System.in);
 		System.out.println("Please enter the price");
 		double T =s.nextDouble();
-		double g=0.05;
-		double k= T*g;
+		System.out.println("Enter the taaxes  in your country");
+		double g=s.nextDouble()
+		double m=g/100;
+		double k= T*m;
 		double f=T+k;
 		System.out.println("The price with the taxes :"+f +"the taxes is ;"+k);
 		
@@ -26,4 +28,16 @@ public class Taxes {
 		
 	}
 
+}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
 }
